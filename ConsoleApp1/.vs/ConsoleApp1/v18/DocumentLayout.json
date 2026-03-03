@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{75798107-0F1F-41B7-91BF-FE6BC5460F6A}|ConsoleApp1\\ConsoleApp1.fsproj|c:\\users\\elise\\onedrive\\\u0443\u043D\u0438\u043A\\2\u043A\u0443\u0440\u0441\\2\\\u044F\u043F\\lab2\\consoleapp1\\consoleapp1\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
       "RelativeMoniker": "D:0:0:{75798107-0F1F-41B7-91BF-FE6BC5460F6A}|ConsoleApp1\\ConsoleApp1.fsproj|solutionrelative:consoleapp1\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED18FF7-E870-4289-AF14-A6A1BA8CA144}|ConsoleApp2\\ConsoleApp2.fsproj|c:\\users\\elise\\onedrive\\\u0443\u043D\u0438\u043A\\2\u043A\u0443\u0440\u0441\\2\\\u044F\u043F\\lab2\\consoleapp1\\consoleapp2\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{0ED18FF7-E870-4289-AF14-A6A1BA8CA144}|ConsoleApp2\\ConsoleApp2.fsproj|solutionrelative:consoleapp2\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.fs",
+              "DocumentMoniker": "C:\\Users\\elise\\OneDrive\\\u0423\u041D\u0418\u041A\\2\u041A\u0443\u0440\u0441\\2\\\u042F\u041F\\lab2\\ConsoleApp1\\ConsoleApp2\\Program.fs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Program.fs",
+              "ToolTip": "C:\\Users\\elise\\OneDrive\\\u0423\u041D\u0418\u041A\\2\u041A\u0443\u0440\u0441\\2\\\u042F\u041F\\lab2\\ConsoleApp1\\ConsoleApp2\\Program.fs",
+              "RelativeToolTip": "ConsoleApp2\\Program.fs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-03T17:21:51.69Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.fs",
               "ToolTip": "C:\\Users\\elise\\OneDrive\\\u0423\u041D\u0418\u041A\\2\u041A\u0443\u0440\u0441\\2\\\u042F\u041F\\lab2\\ConsoleApp1\\ConsoleApp1\\Program.fs",
               "RelativeToolTip": "ConsoleApp1\\Program.fs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-03-03T17:07:51.192Z",
               "EditorCaption": ""
