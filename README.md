@@ -31,8 +31,8 @@
 
 
 
-![image](image/z1.1.png)
+![Image](Image/z1.1.png)
 
 ##### 
 
-![image](image/z1.2.png)
+![Image](Image/z1.2.png)
