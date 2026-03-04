@@ -1,5 +1,6 @@
 ﻿open System
 
+
 // Cоздание списка
 let rec numberss(currentlist: int list) : int list = 
     let x = Console.ReadLine()
@@ -9,7 +10,7 @@ let rec numberss(currentlist: int list) : int list =
         numberss(currentlist @[int(x)])
 
 // Вычисление суммы цифр
-let SumChislo n = 
+let sumCount n = 
     let rec loop curr summ =
         if curr = 0 then 
             summ
@@ -17,8 +18,8 @@ let SumChislo n =
             loop (curr/10) (summ + (curr%10))
     loop n 0
 
-let SumSpis num = 
-    List.map SumChislo num // Приминение к каждому значению списка
+let sumList num = 
+    List.map sumCount num // Приминение к каждому значению списка
 
 [<EntryPoint>]
 let main _ =
@@ -26,7 +27,7 @@ let main _ =
     printfn "Для завершения ex"
     let res = numberss []
 
-    let result = SumSpis res
+    let result = sumList res
 
     printfn "Исходный список: %A" res
     printfn "Список завершён %A" result
