@@ -1,23 +1,34 @@
 ﻿open System
 
-let numbers = [12; 23; 34]
+//создание списка
+let rec numberss(currentlist: int list) : int list = 
+    let x = Console.ReadLine()
+    if x = "ex" then
+        currentlist
+    else
+        numberss(currentlist @[int(x)])
 
 // Вычисление суммы цифр
 let SumChislo n = 
-    let rec loop tek ioth =
-        if tek = 0 then ioth
-        else loop (tek/10) (ioth + (tek%10))
+    let rec loop curr summ =
+        if curr = 0 then 
+            summ
+        else 
+            loop (curr/10) (summ + (curr%10))
     loop n 0
 
-
-let SumSpis numbe = 
-    List.map SumChislo numbe // Приминение к каждому значению списка
+let SumSpis num = 
+    List.map SumChislo num // Приминение к каждому значению списка
 
 [<EntryPoint>]
 let main _ =
-    let result = SumSpis numbers
+    printfn "Введите список через Enter"
+    printfn "Для завершения ex"
+    let res = numberss []
 
-    printfn "Исходный список: %A" numbers
+    let result = SumSpis res
+
+    printfn "Исходный список: %A" res
     printfn "Список завершён %A" result
 
     0
