@@ -1,6 +1,6 @@
 ﻿open System
 
-//создание списка
+// Cоздание списка
 let rec numberss(currentlist: int list) : int list = 
     let x = Console.ReadLine()
     if x = "ex" then
