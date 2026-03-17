@@ -61,4 +61,4 @@
 
 
 
-![Image](Image/z2.1.png)
+![Image](Image/z2.1.jpg)
