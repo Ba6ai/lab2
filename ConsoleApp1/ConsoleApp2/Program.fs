@@ -7,7 +7,12 @@ let rec numberss(currentlist: int list) : int list =
     if x = "ex" then
         currentlist
     else
-        numberss(currentlist @ [int(x)])
+        match System.Int32.TryParse(x) with
+        |true, value -> 
+             numberss(currentlist @ [int(x)])
+        |false, _ ->
+            printfn "'%s'НЕ ЯВЛЯЕТСЯ ЧИСЛОМ" x
+            numberss(currentlist)
 
 // Получение первой цифры числа
 let search n = 
