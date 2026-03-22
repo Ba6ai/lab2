@@ -16,14 +16,14 @@ let rec numberss(currentlist: int list) : int list =
 
 // Получение первой цифры числа
 let search n = 
-    let s = string n
+    let s = string (abs n)
     int(string s.[0]) // Получение первого символа в строке .[0]
 
 // Поиск суммы
 let sum target list =
     list |> List.fold (fun a x ->
         if search x  = target then
-            a+x
+            a + (abs x)
         else
             a
     )0
